@@ -54,8 +54,19 @@ int main() {
             tabuleiro [9 - i] [6 + i] = 3;
     }
 
+    // Exibe números das colunas 
+    printf("  ");
+
+    for (int j = 0; j < COLUNAS; j++){
+
+        printf("%d ", j);
+    }
+    printf("\n");
+
     // Exibe o tabuleiro
     for (int i = 0; i < LINHAS; i++){
+
+        printf("%d ", i); // Exibe o número das linhas
 
         for (int j = 0; j < COLUNAS; j++){
 
