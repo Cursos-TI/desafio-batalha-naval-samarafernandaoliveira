@@ -124,8 +124,8 @@ int main() {
     }
 
     // Cone no tabuleiro
-    int origemLinha = 4;
-    int origemColuna = 4;
+    int origemLinha = 2;
+    int origemColuna = 2;
 
     for (int i = 0; i < 5; i++){
 
@@ -145,8 +145,8 @@ int main() {
     }
 
     // Cruz no tabuleiro
-    origemLinha = 5;
-    origemColuna = 5;
+    origemLinha = 2;
+    origemColuna = 7;
 
     for (int i = 0; i < 5; i++){
 
@@ -167,7 +167,7 @@ int main() {
 
     // Octaedro no tabuleiro
     origemLinha = 7;
-    origemColuna = 7;
+    origemColuna = 4;
 
     for (int i = 0; i < 5; i++){
 
